@@ -1,0 +1,12 @@
+
+
+¿Qué entidades y relaciones son necesarias para modelar el sistema?
+Para modelar el sistema, se necesitan las entidades Empleado, Asignación y Proyecto. 
+La entidad Empleado contiene atributos como Id, NumeroCarnet, Nombre, FechaNacimiento, Categoria, Salario, Direccion, Telefono y Correo. 
+La entidad Asignación está relacionada con el Empleado y el Proyecto, y contiene atributos como Id, EmployeeId, ProjectId y FechaAsignacion. 
+La entidad Proyecto incluye atributos como Id, Nombre, FechaInicio y FechaFin. Las relaciones son de uno a muchos: un Empleado puede tener múltiples Asignaciones, y un Proyecto puede estar asociado a varias Asignaciones.
+
+
+¿Qué restricciones debes implementar en la base de datos para cumplir con los requisitos?
+En cuanto a las restricciones, se deben definir claves primarias para el campo Id en Empleado, Asignación y Proyecto, y claves foráneas en Asignación para relacionarse con Empleado y Proyecto. 
+También se debe garantizar la unicidad de NumeroCarnet en Empleado, aplicar validaciones en campos como Salario, Telefono, y Correo, y mantener la integridad referencial mediante eliminaciones en cascada de las entidades relacionadas.

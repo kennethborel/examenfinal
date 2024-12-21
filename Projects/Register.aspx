@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ExamenProd.Projects.Register" %>
+﻿git init<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="ExamenProd.Projects.Register" %>
 
 <!DOCTYPE html>
 
